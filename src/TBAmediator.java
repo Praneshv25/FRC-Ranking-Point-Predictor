@@ -14,7 +14,7 @@ public class TBAmediator {
         System.out.println(url);
 
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
-        con.addRequestProperty(HEADER_AUTH, "X7xMu0pxgjMNXPHBu3neIKdmXsok8DCHfjANFxzqZgfeTzf0CaK6vWoc5djB7rT1");
+        con.addRequestProperty(HEADER_AUTH, ""); //Removed auth-key
         getData(con);
     }
 
