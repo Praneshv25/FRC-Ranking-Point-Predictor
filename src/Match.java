@@ -1,7 +1,8 @@
 public class Match {
     private Team[] blueAlliance;
     private Team[] redAlliance;
-
+//Note: Did not account for Quintet 
+    
     public Match(Team[] blueAlliance, Team[] redAlliance) {
         this.blueAlliance = blueAlliance;
         this.redAlliance = redAlliance;
